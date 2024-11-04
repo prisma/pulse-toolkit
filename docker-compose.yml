@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: pulse
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: postgres
+    ports:
+      - "34944:5432"
+    command: ["postgres", "-c", "wal_level=logical"]

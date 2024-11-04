@@ -1,0 +1,19 @@
+{
+  "name": "simple-script",
+  "version": "0.0.0",
+  "license": "Apache-2.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "tsx watch script.ts"
+  },
+  "dependencies": {
+    "@prisma/pulse-cdc": "workspace:*",
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.6",
+    "@types/pg": "^8.11.10",
+    "tsx": "^4.19.0"
+  }
+}
