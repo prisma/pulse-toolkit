@@ -24,7 +24,7 @@ A publication defines the set of tables that will be included in a subscription.
 CREATE PUBLICATION "my_publication" FOR ALL TABLES;
 ```
 
-> ![NOTE]
+> [!NOTE]
 > The publication `my_publication` will emit all changes for all the tables in the database when used by a replication slot. See the [Prisma Pulse documentation](https://www.prisma.io/docs/pulse/database-setup/general-database-instructions#creating-a-publication-slot) for examples of configuring publications in other ways.
 
 A replication slot defines a single logical replication consumer. PostgreSQL will track the status of a replication slot and preserve change data until the consumer acknowledges the events. This enables the consumer to undergo maintenance or otherwise become unavailable without missing changes. It also means that PostgreSQL can consume significant additional disk space if the replication slot is created without a consumer. Be sure to begin consuming events soon after creating the replication slot!
