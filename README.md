@@ -1,3 +1,5 @@
+![prisma-banner](https://github.com/user-attachments/assets/34a2c3f2-ca56-4e84-a644-6d422e144da7)
+
 # 💓 Prisma Pulse Toolkit
 
 This repo contains open source components of [Prisma Pulse](https://prisma.io/pulse).
