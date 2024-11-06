@@ -35,9 +35,9 @@ importers:
 
   examples/simple-script:
     dependencies:
-      '@prisma/pulse-cdc':
+      '@prisma/pulse-cdc-pg':
         specifier: workspace:*
-        version: link:../../packages/pulse-cdc
+        version: link:../../packages/pulse-cdc-pg
       pg:
         specifier: ^8.13.0
         version: 8.13.0
@@ -52,7 +52,7 @@ importers:
         specifier: ^4.19.0
         version: 4.19.0
 
-  packages/pulse-cdc:
+  packages/pulse-cdc-pg:
     dependencies:
       pg:
         specifier: ^8.13.0

@@ -8,7 +8,7 @@
     "start": "tsx watch script.ts"
   },
   "dependencies": {
-    "@prisma/pulse-cdc": "workspace:*",
+    "@prisma/pulse-cdc-pg": "workspace:*",
     "pg": "^8.13.0"
   },
   "devDependencies": {

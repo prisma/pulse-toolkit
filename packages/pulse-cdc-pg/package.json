@@ -1,5 +1,5 @@
 {
-  "name": "@prisma/pulse-cdc",
+  "name": "@prisma/pulse-cdc-pg",
   "version": "0.0.0",
   "description": "",
   "license": "Apache-2.0",
