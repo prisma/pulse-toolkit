@@ -1,3 +1,5 @@
+![prisma-banner](https://github.com/user-attachments/assets/34a2c3f2-ca56-4e84-a644-6d422e144da7)
+
 # `@prisma/pulse-cdc-pg`
 
 `@prisma/pulse-cdc-pg` provides PostgreSQL Change Data Capture (CDC) streaming primitives built on the popular [`node-pg`](https://www.npmjs.com/package/pg) package. This package uses [logical replication](https://www.postgresql.org/docs/current/logical-replication.html) to stream changes in real-time from a PostreSQL database.
