@@ -1,7 +1,7 @@
 import {
   LogicalReplicationStream,
   PgOutputDecoderStream,
-} from "@prisma/pulse-cdc";
+} from "@prisma/pulse-cdc-pg";
 //! pg doesn't support ESM and requires a default export
 import pg from "pg";
 
